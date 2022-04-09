@@ -1,0 +1,73 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+   background-image: url(board3.jpg);
+    /* background-position: center; */
+    background-size: cover ; 
+    font-family:" Architects Daughter";
+    font-size: 24px;
+}
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  width: 10%;
+  padding-top: 2%;
+  
+}
+
+
+
+button{
+  margin-left:1200px ;
+  padding: auto;
+}
+
+.main-container{
+  width: 95%;
+  margin: auto;
+}
+.container1{
+  margin-left: 5%;
+}
+.container2{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+.container3{
+   display: none; 
+  position: absolute;
+  top: 26%;
+  left: 40%;
+}
+
+textarea{
+  box-shadow: 10px 10px 24px 0px rgb(0, 0, 0,0.75);
+  outline: none;
+  border: none;
+  width: 275px;
+  height: 275px;
+  padding: 40px 25px 25px 25px ;
+}
+
+svg{
+  color: rgb(178, 101, 6);
+
+}
+
+#check-icon{
+  position: absolute;
+  right: 17%;
+  top: 4%;
+}
+
+#x-icon{
+  position: absolute;
+  right: 5%;
+  top : 4%;
+}
